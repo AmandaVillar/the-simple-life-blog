@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif; /* putting the font-family at the body so /i dont have to claim them every timer */
+}
+
+
+header {
+    text-align: center;
+    background: #f8f8f8;
+    padding: 2em 0;
+}
+
+/* =================
+Typography
+================= */
+
+h1 {
+    font-family: 'Lora', serif;
+    font-weight: 400;
+    color: #143774;
+    font-size: 2rem;
+    margin-bottom: 0;
+}
+
+.subtitle {
+    font-weight: 700;
+    color: #1792d2;
+    font-size: .75rem;
+    margin-top: 0;
+}
+
+/* =================
+Navigation Bar
+================= */
+
+.nav-list {
+    list-style: none;           /* remove bullet points*/
+    padding: 0;                 /* remove extra space */ 
+    display: flex;              /* rows to columns that goes until the biggest content */
+    justify-content: center;     /* takes extra space and evens it out btw itens */
+}
+
+.nav-list-item {
+    margin: 0 1em;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #707070;
+    font-weight: 700;
+    padding: .25em 0;
+}
+
+.nav-link:hover,
+.nav-link:focus {           /* everything you put a hover, put a focus */
+    color: #1792d2;
+    text-decoration: none;
+}
+
+.current-page {
+    border-bottom: 1px solid #707070;
+}
+
+.current-page:hover {       /* Don't want the color to change as a link if I'm already on that page */
+    color: #707070;
+}

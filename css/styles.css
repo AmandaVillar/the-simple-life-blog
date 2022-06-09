@@ -5,9 +5,26 @@ body {
 
 
 header {
-    text-align: center;
     background: #f8f8f8;
     padding: 2em 0;
+}
+
+.container {
+    width: 90%;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.container-nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (max-width: 675px) {
+    .container {
+        align-items: center;
+        flex-direction: column;
+    }
 }
 
 /* =================
@@ -41,7 +58,7 @@ Navigation Bar
 }
 
 .nav-list-item {
-    margin: 0 1em;
+    margin-left: 2em;
 }
 
 .nav-link {
@@ -63,4 +80,15 @@ Navigation Bar
 
 .current-page:hover {       /* Don't want the color to change as a link if I'm already on that page */
     color: #707070;
+}
+
+@media (max-width:675px) {
+    .nav-list {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-list-item {
+        margin: .5em 0;
+    }
 }

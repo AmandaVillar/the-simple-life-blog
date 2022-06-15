@@ -92,3 +92,47 @@ Navigation Bar
         margin: .5em 0;
     }
 }
+
+/* starting CSS here */
+
+/*  ===========
+DIVISION OF RIGHT-LEFT CONTENT 
+================  */
+
+
+
+
+
+
+
+
+/*   ===============
+FOOTER 
+==================  */
+
+footer {
+    background: #143774;
+    padding: 1.75em 0;
+    color: #ffffffb8;
+    
+}
+
+.foot-container {
+    width: 90%;
+    max-width: 900px;
+    margin: 0 auto;
+    font-family: Ubuntu;
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.foot-content {
+    margin-bottom: 0;
+}
+
+.copyright {
+    font-weight: lighter;
+    font-size: 0.85rem;
+    margin-top: 0;
+}
